@@ -1,0 +1,174 @@
+#page-wrapper {
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+img {
+    max-width: 10%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    img {max-width: 4%;
+    }
+}
+
+
+nav {
+    width: 100%;
+    background-color: #ccae62;
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0 30px 0 0;
+    list-style: none; 
+}
+
+li {
+    float: right;
+}
+
+nav a {
+    width: 100px;
+    text-decoration: none;
+    display: block;
+    padding: 25px 15px;
+    color: #f7f1e3;
+    font-weight: bolder;
+    text-align: right;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: #f7f1e3;
+    color: #ccae62;
+    transition: 0.5s;
+}
+
+
+
+#email-info {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 60px;
+    opacity: 0.9;
+    font-size: xx-large;
+}
+
+#email {
+    padding: 8px;
+    width: 225px;
+    border-radius: 8px;
+}
+
+#email-info .btn {
+    margin-top: 30px;
+} 
+
+::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #218c74;
+    color:  #f7f1e3;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+ input[type="submit"]:hover {
+    background-color: #33d9b2;
+    transition: 0.5s;  
+      
+}
+
+
+
+#features {
+    margin-top: 40px;
+    font-size: x-large;
+    margin: auto;
+    width: 50%;
+}
+
+#features .icon {
+    color: #218c74;
+    margin-top: 60px;
+} 
+
+#features p {
+    width: 100%;
+}
+
+
+
+iframe {
+    margin-top: 60px;
+    width: 450px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 80px;
+}
+
+
+#popular-products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.level {
+    background-color: #ccae62;
+    padding: 8px;
+    color: #f7f1e3;
+    font-weight: bolder;
+    font-size: large;
+}
+
+button[class="btn"]:hover {
+    background-color: #33d9b2;
+    transition: 0.5s;    
+}
+
+.product p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+footer {
+    background-color: #ccae62;
+    color: #f7f1e3;
+    text-align: right;
+    padding: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
+}
